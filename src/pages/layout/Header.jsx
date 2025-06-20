@@ -21,9 +21,9 @@ function Header() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
             <Link to="/" className="text-sm/6 font-semibold text-gray-900">Home</Link>
-            <Link to="#" className="text-sm/6 font-semibold text-gray-900">About</Link>
-            <Link to="#" className="text-sm/6 font-semibold text-gray-900">Services</Link>
-            <Link to="#" className="text-sm/6 font-semibold text-gray-900">Contact</Link>
+            <Link to="/about" className="text-sm/6 font-semibold text-gray-900">About</Link>
+            <Link to="/chatbot" className="text-sm/6 font-semibold text-gray-900">Chatbot</Link>
+            <Link to="/contact" className="text-sm/6 font-semibold text-gray-900">Contact</Link>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <Link to="/login" className="text-sm/6 font-semibold text-gray-900">Log in <span aria-hidden="true">&rarr;</span></Link>

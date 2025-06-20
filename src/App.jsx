@@ -7,6 +7,9 @@ import Home from './pages/Home'
 import Login from './pages/auth/Login'
 import Dashboard from './pages/admin/Dashboard'
 import ProtectedRoute from './components/ProtectedRoute'
+import About from './pages/About'
+import Chatbot from './pages/Chatbot'
+import Contact from './pages/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +20,9 @@ function App() {
         <Routes>
           {/* public routes */}
           <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/chatbot' element={<Chatbot />} />
+          <Route path='/contact' element={<Contact />} />
           <Route path='/login' element={<Login />} />
           {/* protected routes */}
           <Route element={<ProtectedRoute />}>
